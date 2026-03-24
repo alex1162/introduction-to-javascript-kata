@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { CustomerForm } from './CustomerForm';
-import { CustomerList } from './CustomerList';
+import CustomerList from './CustomerList';
+import CustomerForm from "./CustomerForm";
 
 let CustomerManagement = () => {
   var [customers, setCustomers] = useState([]);

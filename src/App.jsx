@@ -1,7 +1,7 @@
 import './App.css';
 import CustomerManagement from './customer/CustomerManagement';
 
-export const App = () => {
+const App = () => {
   return (
     <div className="container">
       <h1>Customer Management System</h1>
@@ -9,3 +9,5 @@ export const App = () => {
     </div>
   )
 };
+
+export default App;
