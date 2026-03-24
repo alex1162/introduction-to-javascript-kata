@@ -7,7 +7,7 @@ const CustomerForm = ({ setCustomers }) => {
   const [address, setAddress] = useState('');
 
   const submitEmployee = () => {
-    setCustomers(prev => {
+      setCustomers(prev => {
       prev.push({
         name: name,
         email: email,

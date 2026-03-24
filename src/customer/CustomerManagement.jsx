@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { CustomerForm } from './CustomerForm';
-import { CustomerList as ShowCustomer } from './CustomerList';
+import { CustomerList } from './CustomerList';
 
 let CustomerManagement = () => {
   var [customers, setCustomers] = useState([]);
@@ -11,3 +11,5 @@ let CustomerManagement = () => {
     </>
   )
 };
+
+export default CustomerManagement;

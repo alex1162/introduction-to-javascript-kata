@@ -20,4 +20,4 @@ const CustomerList = ({ customers }) => {
   );
 };
 
-export { CustomerList };
+export default CustomerList;
